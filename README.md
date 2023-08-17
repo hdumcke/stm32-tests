@@ -14,3 +14,4 @@ On Ubuntu 22.04 install the tool chain:
  2. cd stm32-tests
  3. make -C libopencm3 # (Only needed once)
  4. make -C blink
+ 5. st-flash write blink/blink.bin 0x8000000
